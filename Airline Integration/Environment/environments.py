@@ -9,4 +9,4 @@ window_width = 1080
 # environment ="QA"
 # environment="Prod"
 environment = "Staging"
-receiver_email = ["vijay.nandagavali@indexnine.com", "govind.m@indexnine.com", "suraj.warade@indexnine.com"]
+# receiver_email = ["vijay.nandagavali@indexnine.com", "govind.m@indexnine.com", "suraj.warade@indexnine.com"]

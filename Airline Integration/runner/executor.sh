@@ -4,7 +4,7 @@
 
 pip3 install -r ../requirements.txt
 
-pabot --testlevelsplit --pabotlib --processes 6 ../TestCases/BookingFlowTestCases
+pabot --testlevelsplit --pabotlib --processes 20 ../TestCases/BookingFlowTestCases
 
 
 #python3 PerformanceMetrics.py

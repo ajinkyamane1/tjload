@@ -2,7 +2,7 @@
 #
 #sudo kill -9 `sudo lsof -t -i:8900`
 
-pip install -r ../requirements.txt
+pip3 install -r ../requirements.txt
 
 pabot --testlevelsplit --pabotlib --processes 6 ../TestCases/BookingFlowTestCases
 

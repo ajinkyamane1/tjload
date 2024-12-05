@@ -29,8 +29,10 @@ TC_01 Without SSR booking
 #    Login With Valid Agent Username And Password    ${booking_data}
     ${my_dict}    Create Dictionary   &{booking_data}
     Login With Valid Admin Username And Password    ${booking_data}
+    Wait Until Element Is Visible    //a[text()='Flight']
+    Click Element    //a[text()='Flight']
 #    Run Keyword And Ignore Error    Login With Valid Admin Username And Password    ${booking_data}
-    Emulate To User Id    ${booking_data}
+#    Emulate To User Id    ${booking_data}
     Search Flight According to TestData    ${booking_data}
 #    IF    '${my_dict.SelectFareType}' == 'Null'
 #        Select One Stop Filter

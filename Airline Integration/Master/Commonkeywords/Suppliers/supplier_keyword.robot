@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 Library    String
 Library    Collections
 Variables    ../../PageObjects/Suppliers/supplier_locator.py
-Library     ../../CommonKeywords/CustomKeywords/supplier_keyword.py
+Library     ../../Commonkeywords/CustomKeywords/supplier_keyword.py
 
 *** Keywords ***
 Select Supplier Filter | Admin

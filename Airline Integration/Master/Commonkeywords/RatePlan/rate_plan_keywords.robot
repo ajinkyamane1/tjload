@@ -1,14 +1,14 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    XML
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library    String
 Library    Collections
 Library     OperatingSystem
 Library    DateTime
 Library     Process
 Library     random
-Library     ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library     ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library     ../../../Environment/environments.py
 Variables    ../../PageObjects/RatePlan/rate_plan_locators.py
 

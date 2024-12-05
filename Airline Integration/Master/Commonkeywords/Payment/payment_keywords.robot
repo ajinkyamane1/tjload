@@ -9,8 +9,8 @@ Variables   ../../PageObjects/PaxDetails/pax_details_locators.py
 Variables   ../../PageObjects/SearchFlights/search_page_locators.py
 Variables   ../../PageObjects/Payment/payment_locators.py
 Variables    ../../PageObjects/Booking/booking_summary_locators.py
-Resource    ../../CommonKeywords/PaxDetails/pax_details_keywords.robot
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Resource    ../../Commonkeywords/PaxDetails/pax_details_keywords.robot
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 
 
 

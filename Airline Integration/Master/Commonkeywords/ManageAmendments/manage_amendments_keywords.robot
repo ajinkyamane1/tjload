@@ -7,8 +7,8 @@ Library    Collections
 Library     OperatingSystem
 Library     Process
 Library    CSVLibrary
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
-Library    ../../CommonKeywords/CustomKeywords/manage_deposit_requests_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/manage_deposit_requests_keywords.py
 Variables  ../../../Environment/environments.py
 Variables    ../../PageObjects/ManageAmendments/manage_amendments_locators.py
 

@@ -3,9 +3,9 @@ Library    SeleniumLibrary
 Library    String
 Library    Collections
 Library    DateTime
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
-Library    ../../CommonKeywords/CustomKeywords/manage_deposit_requests_keywords.py
-Library    ../../CommonKeywords/CustomKeywords/billing_info_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/manage_deposit_requests_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/billing_info_keywords.py
 Variables  ../../../Environment/environments.py
 Variables    ../../PageObjects/BillingInfo/billing_info.py
 

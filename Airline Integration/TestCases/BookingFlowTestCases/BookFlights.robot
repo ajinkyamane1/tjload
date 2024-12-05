@@ -3,11 +3,11 @@ Library    SeleniumLibrary
 Library    OperatingSystem
 Library    DataDriver  ../../TestData/Staging/testdata.xlsx    sheet_name=Sheet2  #Trial     #Sheet2    #booking_data
 Resource    ../../Master/Commonkeywords/Login/login_keywords.robot
-Resource    /home/ec2-user/automation/tjload/Master/CommonKeywords/SearchFlights/
-Resource    ../../Master/CommonKeywords/BookingSummary/booking_summary_keywords.robot
-Resource    ../../Master/CommonKeywords/SeatMapWindow/seat_map_window_keywords.robot
-Resource    ../../Master/CommonKeywords/AirlineIntegration/airline_integration_keywords.robot
-Library     ../../Master/CustomKeywords/process_testdata_keywords.py
+Resource    ../../Master/Commonkeywords/SearchFlights/search_flights_keywords.robot
+Resource    ../../Master/Commonkeywords/BookingSummary/booking_summary_keywords.robot
+Resource    ../../Master/Commonkeywords/SeatMapWindow/seat_map_window_keywords.robot
+Resource    ../../Master/Commonkeywords/AirlineIntegration/airline_integration_keywords.robot
+Library     ../../Master/Customkeywords/process_testdata_keywords.py
 
 Test Setup    Open Air Application
 Test Teardown   Close Browser

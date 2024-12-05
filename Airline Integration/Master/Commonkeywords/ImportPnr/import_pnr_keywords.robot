@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    XML
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library    String
 Library    Collections
 Library     OperatingSystem
@@ -12,8 +12,8 @@ Variables     ../../../Environment/environments.py
 Variables    ../../PageObjects/ImportPnr/import_pnr_locators.py
 Variables    ../../PageObjects/ManageSource/manage_source_locators.py
 Variables    ../../PageObjects/Payment/payment_locators.py
-Resource     ../../CommonKeywords/ManageCart/Manage_cart_keywords.robot
-Resource    ../../CommonKeywords/Payment/payment_keywords.robot
+Resource     ../../Commonkeywords/ManageCart/Manage_cart_keywords.robot
+Resource    ../../Commonkeywords/Payment/payment_keywords.robot
 Resource    ../BookingSummaryMoreOptions/booking_summary_more_options_keywords.robot
 
 *** Keywords ***

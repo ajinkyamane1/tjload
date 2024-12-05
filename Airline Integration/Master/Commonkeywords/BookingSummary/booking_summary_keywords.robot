@@ -4,12 +4,12 @@ Library    SeleniumLibrary
 Library    Collections
 Library    BuiltIn
 Library    String
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Variables    ../../PageObjects/Booking/booking_summary_locators.py
 Variables    ../../PageObjects/FlightItinerary/flight_itinerary_locators.py
 Variables    ../../PageObjects/SeatMapWindow/seat_map_window_locators.py
-Resource    ../../CommonKeywords/Review/review_keywords.robot
-Resource    ../../CommonKeywords/SeatMapWindow/seat_map_window_keywords.robot
+Resource    ../../Commonkeywords/Review/review_keywords.robot
+Resource    ../../Commonkeywords/SeatMapWindow/seat_map_window_keywords.robot
 Variables    ../../PageObjects/SearchPageFilter/search_page_filter_locators.py
 
 *** Keywords ***

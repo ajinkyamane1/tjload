@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 Library    String
 Library    Collections
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Variables    ../../PageObjects/FareRules/farerules_locators.py
 Variables    ../../PageObjects/SearchResults/search_results_locators.py
 

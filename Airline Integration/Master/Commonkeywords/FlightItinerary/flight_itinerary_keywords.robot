@@ -4,7 +4,7 @@ Library    Collections
 Library    String
 Library    XML
 Library    ../CustomKeywords/user_keywords.py
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Variables  ../../PageObjects/Login/login_locators.py
 Variables  ../../PageObjects/SearchResults/search_results_locators.py
 Variables  ../../PageObjects/FlightItinerary/flight_itinerary_locators.py

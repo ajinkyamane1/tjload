@@ -7,7 +7,7 @@ Variables  ../../PageObjects/SearchResults/search_results_locators.py
 Variables  ../../../Environment/environments.py
 Variables  ../../PageObjects/CommercialPlan/commercial_plan.py
 Library    OperatingSystem
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 
 *** Variables ***
 ${manage_commercial_td}=    ${CURDIR}${/}..${/}..${/}TestData${/}CommercialPlan${/}commercial_plan_data.xlsx

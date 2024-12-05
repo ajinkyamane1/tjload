@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    XML
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library    String
 Library    Collections
 Library     OperatingSystem
@@ -10,7 +10,7 @@ Library     Process
 Library     random
 Library     ../../../Environment/environments.py
 Library    ../CustomKeywords/user_keywords.py
-Resource    ../../CommonKeywords/ManageCart/Manage_cart_keywords.robot
+Resource    ../../Commonkeywords/ManageCart/Manage_cart_keywords.robot
 Variables    ../../PageObjects/Dashboard/download_report_locators.py
 Variables    ../../PageObjects/ManageCart/manage_cart_locators.py
 

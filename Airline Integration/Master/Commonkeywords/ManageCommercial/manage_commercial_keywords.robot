@@ -6,7 +6,7 @@ Variables  ../../PageObjects/Login/login_locators.py
 Variables  ../../../Environment/environments.py
 Variables  ../../PageObjects/ManageCommercial/manage_commercial.py
 Library    OperatingSystem
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 
 *** Keywords ***
 Create New Commercial Rule

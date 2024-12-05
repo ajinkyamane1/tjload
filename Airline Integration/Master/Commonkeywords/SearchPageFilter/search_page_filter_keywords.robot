@@ -4,8 +4,8 @@ Library    XML
 Variables  ../../../Environment/environments.py
 Variables    ../../PageObjects/SearchPageFilter/search_page_filter_locators.py
 Library    String
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
-Resource    ../../CommonKeywords/BookingSummary/booking_summary_keywords.robot
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
+Resource    ../../Commonkeywords/BookingSummary/booking_summary_keywords.robot
 Library    Collections
 
 *** Keywords ***

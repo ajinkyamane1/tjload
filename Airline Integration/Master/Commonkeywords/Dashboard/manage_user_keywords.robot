@@ -4,8 +4,8 @@ Library    XML
 Variables  ../../../Environment/environments.py
 Variables  ../../PageObjects/Dashboard/manage_user_locators.py
 Variables    ../../PageObjects/SearchFlights/search_page_locators.py
-Library    ../../CommonKeywords/CustomKeywords/date_conversion_keywords.py
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/date_conversion_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library    Collections
 
 *** Keywords ***

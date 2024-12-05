@@ -5,7 +5,7 @@ Library     re
 Library    XML
 Library    Collections
 Library  DateTime
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library    OperatingSystem
 Variables  ../../../Environment/environments.py
 Variables   ../../PageObjects/PaxDetails/pax_details_locators.py
@@ -13,8 +13,8 @@ Variables   ../../PageObjects/SearchFlights/search_page_locators.py
 Variables   ../../PageObjects/CartDetailsPage/cart_details_page_locators.py
 Variables   ../../PageObjects/Payment/payment_locators.py
 Variables    ../../PageObjects/Booking/booking_summary_locators.py
-Resource    ../../CommonKeywords/PaxDetails/pax_details_keywords.robot
-Resource    ../../CommonKeywords/BookingSummary/booking_summary_keywords.robot
+Resource    ../../Commonkeywords/PaxDetails/pax_details_keywords.robot
+Resource    ../../Commonkeywords/BookingSummary/booking_summary_keywords.robot
 
 
 *** Variables ***

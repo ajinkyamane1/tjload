@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    XML
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library    String
 Library    Collections
 Library     OperatingSystem

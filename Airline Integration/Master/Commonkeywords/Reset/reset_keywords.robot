@@ -1,10 +1,10 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    XML
-Library     ../../CommonKeywords/CustomKeywords/user_keywords.py
-Library     ../../CommonKeywords/CustomKeywords/email_helper.py
+Library     ../../Commonkeywords/CustomKeywords/user_keywords.py
+Library     ../../Commonkeywords/CustomKeywords/email_helper.py
 Library    RPA.Excel.Files
-Resource    ../../CommonKeywords/Login/login_keywords.robot
+Resource    ../../Commonkeywords/Login/login_keywords.robot
 Variables  ../../../Environment/environments.py
 Variables    ../../PageObjects/Reset/reset_locators.py
 

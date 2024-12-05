@@ -4,7 +4,7 @@ Library     String
 Library    XML
 Library    Collections
 Library  DateTime
-Library    ../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../Commonkeywords/CustomKeywords/user_keywords.py
 Library    OperatingSystem
 Variables    ../../../Environment/environments.py
 Variables   ../../PageObjects/PaxDetails/pax_details_locators.py

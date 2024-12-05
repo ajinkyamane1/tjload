@@ -4,15 +4,15 @@ Library    XML
 Library    String
 Library    DateTime
 Library    Collections
-Library    ../../../CommonKeywords/CustomKeywords/user_keywords.py
+Library    ../../../Commonkeywords/CustomKeywords/user_keywords.py
 Variables  ../../../../Environment/environments.py
 Variables    ../../../PageObjects/SearchFlights/search_page_locators.py
 Variables    ../../../PageObjects/SearchResults/search_results_locators.py
 Variables    ../../../PageObjects/SearchPageFilter/search_page_filter_locators.py
 Variables    ../../../PageObjects/Booking/booking_summary_locators.py
 Variables    ../../../PageObjects/Corporate/SearchFlights/search_flight_locators.py
-Resource    ../../../CommonKeywords/FlightItinerary/flight_itinerary_keywords.robot
-Resource    ../../../CommonKeywords/BookingSummary/booking_summary_keywords.robot
+Resource    ../../../Commonkeywords/FlightItinerary/flight_itinerary_keywords.robot
+Resource    ../../../Commonkeywords/BookingSummary/booking_summary_keywords.robot
 
 *** Keywords ***
 Navigate To Flight Search Page

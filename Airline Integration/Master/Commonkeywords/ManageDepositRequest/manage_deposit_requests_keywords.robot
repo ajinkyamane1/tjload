@@ -4,9 +4,9 @@ Library    XML
 Library    Collections
 Library    String
 Library    OperatingSystem
-Library    ../../CommonKeywords/CustomKeywords/manage_deposit_requests_keywords.py
-Resource    ../../CommonKeywords/Login/login_keywords.robot
-Resource    ../../CommonKeywords/AddDepositRequest/add_deposit_requests_keywords.robot
+Library    ../../Commonkeywords/CustomKeywords/manage_deposit_requests_keywords.py
+Resource    ../../Commonkeywords/Login/login_keywords.robot
+Resource    ../../Commonkeywords/AddDepositRequest/add_deposit_requests_keywords.robot
 Variables  ../../../Environment/environments.py
 Variables   ../../PageObjects/ManageDepositRequest/manage_deposit_requests_locators.py
 

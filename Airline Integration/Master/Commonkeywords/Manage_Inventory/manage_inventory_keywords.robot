@@ -7,7 +7,7 @@ Variables  ../../PageObjects/Login/login_locators.py
 Variables  ../../PageObjects/SearchResults/search_results_locators.py
 Variables  ../../../Environment/environments.py
 Variables  ../../PageObjects/Manage_Inventory/manage_inventory_locator.py
-Library    ../../CommonKeywords/Customkeywords/user_keywords.py
+Library    ../../Commonkeywords/Customkeywords/user_keywords.py
 Library    OperatingSystem
 Library    XML
 

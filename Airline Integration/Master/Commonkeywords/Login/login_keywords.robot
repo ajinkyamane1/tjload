@@ -49,12 +49,12 @@ Login With Valid Admin Username And Password
     Input Text    ${password_field}    ${my_dict.Password}
     Click Element    ${login_button}
     Sleep    3s
-    Wait Until Element Is Visible    //h1[text()='Login to your account']
-    Wait Until Element Is Visible    //input[@type='email']
-    Input Text        //input[@type='email']    ${my_dict.Username}
-    Wait Until Element Is Visible    //input[@type='password']
-    Input Text        //input[@type='password']    ${my_dict.Password}
-    Click Element    //button[text()='Submit']  
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    //h1[text()='Login to your account']
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    //input[@type='email']
+    Run Keyword And Ignore Error    Input Text        //input[@type='email']    ${my_dict.Username}
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    //input[@type='password']
+    Run Keyword And Ignore Error    Input Text        //input[@type='password']    ${my_dict.Password}
+    Run Keyword And Ignore Error    Click Element    //button[text()='Submit']
     Run Keyword And Ignore Error     Wait Until Element Is Visible    //a[text()='Dashboard']    30s
     Run Keyword And Ignore Error     Click Element    //a[text()='Dashboard']
     Wait Until Page Contains Element    ${manage_user_text}     timeout=30

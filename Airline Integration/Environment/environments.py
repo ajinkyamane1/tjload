@@ -1,6 +1,6 @@
 # air_application_url = "https://auto.tripjack.com/nav/"
-air_application_url = "https://qa.technogramsolutions.com/nav/"
-# air_application_url = "https://staging.tripjack.com/nav/"
+# air_application_url = "https://qa.technogramsolutions.com/nav/"
+air_application_url = "https://staging.tripjack.com/nav/"
 # air_application_url="https://qa-i9.tripjack.com/"
 browser = "chrome"
 window_height = 1920

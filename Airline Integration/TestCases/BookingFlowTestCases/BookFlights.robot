@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 Library    OperatingSystem
 Library    DataDriver  ../../TestData/Staging/testdata.xlsx    sheet_name=Sheet2  #Trial     #Sheet2    #booking_data
 Resource    ../../Master/Commonkeywords/Login/login_keywords.robot
-Resource    ../../Master/CommonKeywords/SearchFlights/search_flights_keywords.robot
+Resource    /home/ec2-user/automation/tjload/Master/CommonKeywords/SearchFlights/
 Resource    ../../Master/CommonKeywords/BookingSummary/booking_summary_keywords.robot
 Resource    ../../Master/CommonKeywords/SeatMapWindow/seat_map_window_keywords.robot
 Resource    ../../Master/CommonKeywords/AirlineIntegration/airline_integration_keywords.robot

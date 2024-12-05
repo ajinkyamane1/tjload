@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    OperatingSystem
-Library    DataDriver  ../../TestData/Staging/testdata.xlsx    sheet_name=Sheet2  #Trial     #Sheet2    #booking_data
+Library    DataDriver  ../../TestData/Staging/testdata.xlsx    sheet_name=Trial   #Sheet2  #Trial     #Sheet2    #booking_data
 Resource    ../../Master/Commonkeywords/Login/login_keywords.robot
 Resource    ../../Master/Commonkeywords/SearchFlights/search_flights_keywords.robot
 Resource    ../../Master/Commonkeywords/BookingSummary/booking_summary_keywords.robot
@@ -33,11 +33,22 @@ TC_01 Without SSR booking
     Click Element    //a[text()='Flight']
 #    Run Keyword And Ignore Error    Login With Valid Admin Username And Password    ${booking_data}
 #    Emulate To User Id    ${booking_data}
+
     Search Flight According to TestData    ${booking_data}
 #    IF    '${my_dict.SelectFareType}' == 'Null'
 #        Select One Stop Filter
 #    END
     Check Flights Are Available On Search Page
+    ${end_time}=    DateTime.Get Current Date     result_format=%Y-%m-%d %H:%M:%S
+    Log    Current Time: ${end_time}
+#    ${start_time}=    Get Current Date    result_format=%H:%M:%S
+#    Sleep    2s
+#    ${end_time}=    Get Current Date    result_format=%H:%M:%S
+    ${time_diff}=    DateTime.Subtract Date From Date    ${end_time}    ${start_time}
+    Log    Time difference in seconds: ${time_diff}
+    Set Test Message    ${time_diff}
+
+
 #    Click On Book Button with Cancellation Charge Applied
 #    Click Book Button
 #    ${review_details}    ${review_contact_number}    Verify Passenger Details Till Booking Page    ${booking_data}

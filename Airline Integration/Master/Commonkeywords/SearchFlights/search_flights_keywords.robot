@@ -51,6 +51,9 @@ Search One Way Flights
         ${current_url}=    Get Location
         Log    ${current_url}
         ${new_url}=    Set Variable    ${current_url}&sId=${my_dict.sId}
+        ${start_time}=    DateTime.Get Current Date      result_format=%Y-%m-%d %H:%M:%S
+        Log    Current Time: ${start_time}
+        Set Test Variable    ${start_time}
         Go To    ${new_url}
         Wait Until Element Is Visible   ${cheapest_flight_filter}     timeout=180s
     ELSE

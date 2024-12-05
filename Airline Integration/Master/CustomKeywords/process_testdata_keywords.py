@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from robot.api.deco import keyword
 from openpyxl import load_workbook
 import json
@@ -48,3 +50,4 @@ def fetch_user_login_data(json_file, user_type, user_id):
 
     except (FileNotFoundError, json.JSONDecodeError, KeyError) as e:
         raise type(e)(str(e) + f" in JSON file '{json_file}'")
+

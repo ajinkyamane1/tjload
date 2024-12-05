@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    OperatingSystem
-Library    DataDriver  ../../TestData/Staging/testdata.xlsx    sheet_name=Trial   #Sheet2  #Trial     #Sheet2    #booking_data
+Library    DataDriver  ../../TestData/Staging/testdata.xlsx    sheet_name=Sheet2  #Trial     #Sheet2    #booking_data
 Resource    ../../Master/Commonkeywords/Login/login_keywords.robot
 Resource    ../../Master/Commonkeywords/SearchFlights/search_flights_keywords.robot
 Resource    ../../Master/Commonkeywords/BookingSummary/booking_summary_keywords.robot

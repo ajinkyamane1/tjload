@@ -1,0 +1,8 @@
+date_change_fee_locator="//div[@class='fareRules__ruleInfoContainer']/span[1]/span"
+date_change_fee_tab="//span[text()='Date Change Fee']"
+cancellation_fee_tab="//span[text()='Cancellation Fee']"
+total_fare_in_single_trip="(//ul[@class='ars-radiolist'])[tripindex]/descendant::span[@class='fare__amount']"
+select_radio_label="(//ul[@class='ars-radiolist'])[tripindex]/descendant::label[@class='sort-labelfill sort-labelfill-positionHandle'][index]"
+total_availed_flights="//div[@class='row flight-rowmain flight-rowmain-positionHandle']"
+view_detail_button="(//div[@class='row flight-rowmain flight-rowmain-positionHandle'])[index]/descendant::button[text()='View Details'][1]"
+book_button_index="(//button[text()='BOOK'])[index]"

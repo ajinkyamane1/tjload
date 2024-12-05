@@ -1,0 +1,12 @@
+email_field = "//input[@name='username']"
+password_field = "//input[@id='paswrd']"
+login_button = "//button[@id='submitButton']"
+reset_here_link = "//a[@href='/app/forgot-password']"
+sign_up_here_link = "//a[@href='/app/register']"
+pass_eye_icon_btn = "//i[@onclick='showPaswrd()']"
+logout_btn = "//li[text()='Logout']"
+manage_user_text= "//span[contains(text(),'manage-user')]"
+dashboard_nav_btn = "//a[contains(@href,'dashboard')][text()='Dashboard']"
+error_msg= "//div[@id='errorMsg'][text()='Authorization unsuccessful.Either email/mobile or password is invalid']"
+suspended_account_msg= "//div[@id='errorMsg'][text()='You have entered wrong password multiple times, Your account is temporarily suspended']"
+

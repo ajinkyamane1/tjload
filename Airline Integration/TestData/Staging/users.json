@@ -1,0 +1,92 @@
+{
+    "users": {
+        "Admin": [
+            {
+                "user_id": "Suraj",
+                "user_name": "suraj.admin@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Vijay",
+                "user_name": "vijay.nandagavali@indexnine.com",
+                "password": "123456"
+            }
+        ],
+
+        "Agent": [
+            {
+                "user_id": "Mrunalinee",
+                "user_name": "mrunalinee.agent@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Ajinkya",
+                "user_name": "ajinkya.agent@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Anand",
+                "user_name": "anand.agent@tripjack.com",
+                "password": "Anand@123"
+            },
+            {
+                "user_id": "Sagar",
+                "user_name": "sagar.agent@tripjack.com",
+                "password": "12345"
+            },
+            {
+                "user_id": "Sanket",
+                "user_name": "sanket.agent@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Utkarsh",
+                "user_name": "utkarsh.agent@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Gorakh",
+                "user_name": "gorakh.agent@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Saloni",
+                "user_name": "saloni.agent@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Neha",
+                "user_name": "neha.dhanshetti@indexnine.com",
+                "password": "abc@123"
+            },
+            {
+                "user_id": "Ankit",
+                "user_name": "ankit.agent@tripjack.com",
+                "password": "123456"
+            },
+            {
+                "user_id": "Tejaswini",
+                "user_name": "tejaswini.agent@tripjack.com",
+                "password": "12345678"
+            },
+            {
+                "user_id": "Malay",
+                "user_name": "malay.mahajan@indexnine.com",
+                "password": "123456"
+            }
+        ],
+
+        "Corporate": [
+            {
+                "user_id": "Reshma",
+                "user_name": "reshma.sonawane@indexnine.com",
+                "password": "123456"
+            },
+            {
+                "user_id": 2,
+                "user_name": "corporate_user",
+                "password": "corporate_password"
+            }
+        ]
+    }
+}

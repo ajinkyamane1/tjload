@@ -1,0 +1,12 @@
+# air_application_url = "https://auto.tripjack.com/nav/"
+air_application_url = "https://qa.technogramsolutions.com/nav/"
+# air_application_url = "https://staging.tripjack.com/nav/"
+# air_application_url="https://qa-i9.tripjack.com/"
+browser = "chrome"
+window_height = 1920
+window_width = 1080
+# downloads_path="GIVE_PATH_OF_DOWNLOADS_DIRECTORY"
+# environment ="QA"
+# environment="Prod"
+environment = "Staging"
+receiver_email = ["vijay.nandagavali@indexnine.com", "govind.m@indexnine.com", "suraj.warade@indexnine.com"]

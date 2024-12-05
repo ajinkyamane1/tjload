@@ -1,0 +1,190 @@
+/* styles.css  # AFE1AF  */
+
+body {
+    font-family: Fantasy fonts, Comic Sans MS, Arial, sans-serif,Georgia, serif, Brush Script;
+    margin: 0;
+}
+
+nav {
+    background-color: #C6F1D6;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+div {
+    padding: 20px;
+}
+
+table {
+    font-family: Fantasy fonts, Comic Sans MS, Arial, Georgia, serif, Brush Script, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#whole{
+    background-color: #C6F1D6;
+}
+
+th {
+    background-color: #C6F1D6;
+}
+/*
+.scrollable-table {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+ Style for the table inside the scrollable container
+.scrollable-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scrollable-table th, .scrollable-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.scrollable-table th {
+    background-color: #f2f2f2;
+}
+
+
+*/
+#summary-info {
+    width: 50%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#total-keywords,
+#total-executions,
+#total-pass,
+#total-fail {
+    text-align: center;
+}
+
+#pie-chart {
+    width: 50%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#pie-chart img {
+    max-width: 100%;
+    height: auto;
+}
+
+#summary-info h2 {
+    text-align: center;
+}
+
+#summary-info h3 {
+    margin-top: 10px;
+}
+
+#summary-info p {
+    margin: 0;
+}
+/*
+.scrollable-table {
+    overflow-x: auto;
+}
+*/
+#pie-chart-container {
+    display: flex;
+    justify-content: center;
+}
+
+#keywords h2,
+#summary-info h2 {
+    margin-bottom: 10px;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Slide In from Left Animation */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Rotate Animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply animations to images */
+img.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+img.slide-in-left {
+    animation: slideInLeft 1s ease-in-out;
+}
+
+img.rotate {
+    animation: rotate 2s linear infinite;
+}
+
+img.pulse {
+    animation: pulse 1s ease-in-out infinite;
+}

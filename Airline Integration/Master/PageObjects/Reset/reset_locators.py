@@ -1,0 +1,10 @@
+#Reset FunctionalityLocators
+reset_link = "//p[contains(text(), 'Forgot your password?')]/a"
+email_mobile_input_field = "//div[@class='material-input']/input"
+button_submit = "//button[text()='Submit']"
+button_back_to_login = "//button[text()='Back To Login']"
+otp_input_field = "//span[1]/descendant::div[@class='material-input']/input"
+new_password_input_field = "//span[2]/descendant::div[@class='material-input']/input"
+confirm_password_input_field = "//span[3]/descendant::div[@class='material-input']/input"
+clear_here_to_login_link = "//a[text()='Click here']"
+login_page = "//h4[contains(text(), 'Already using Tripjack')]"

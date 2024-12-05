@@ -7,7 +7,8 @@ Resource    ../../Master/Commonkeywords/SearchFlights/search_flights_keywords.ro
 Resource    ../../Master/Commonkeywords/BookingSummary/booking_summary_keywords.robot
 Resource    ../../Master/Commonkeywords/SeatMapWindow/seat_map_window_keywords.robot
 Resource    ../../Master/Commonkeywords/AirlineIntegration/airline_integration_keywords.robot
-Library     ../../Master/Customkeywords/process_testdata_keywords.py
+Library     ../../Master/CustomKeywords/process_testdata_keywords.py
+
 
 Test Setup    Open Air Application
 Test Teardown   Close Browser
